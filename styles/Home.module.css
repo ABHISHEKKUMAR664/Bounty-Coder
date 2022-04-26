@@ -1,5 +1,5 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 4rem;
 }
 
 .main {
@@ -14,8 +14,9 @@
 
 .footer {
   display: flex;
+  color: rgb(140, 220, 11);
   flex: 1;
-  padding: 2rem 0;
+  padding: 4rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
@@ -113,4 +114,17 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.mainnav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.mainnav ul li{
+  margin: 0 24px;
+  list-style: none;
+  font-weight: bold;
+
 }
